@@ -1,0 +1,1 @@
+Pre entrega de proyecto final de TalentoTech. Advertencia: contiene muchos placeholders.

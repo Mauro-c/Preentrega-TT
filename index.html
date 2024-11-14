@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Lorem</title>
+    <link rel="stylesheet" href="styles.css">
+    <link type="image/icon" sizes="20x20" href="favicon.png" rel="shortcut icon">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <h1>Tienda Lorem</h1>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#reseñas">Reseñas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Inicio -->
+        <section id="inicio">
+            <h2>Bienvenido</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae harum aliquam commodi quos ex doloribus?
+                Repellat sequi nihil totam dicta, ipsa, modi, delectus nisi voluptatum beatae dignissimos possimus vero
+                itaque.
+                Laudantium ab facere accusamus suscipit sequi, laboriosam ipsam inventore vero incidunt dolor ipsum
+                eligendi cum illo quasi laborum quos dolores maiores corporis, exercitationem porro voluptates, ex amet.
+                Ipsam, laudantium voluptate.
+                Quibusdam saepe itaque rem dolorum quidem hic facere ipsa aperiam labore eius. Porro, possimus. Eum
+                deserunt, est error aspernatur illo animi laudantium repellendus optio porro quidem, iste necessitatibus
+                quos! Explicabo.
+            </p>
+        </section>
+
+        <!-- Productos -->
+        <section id="productos">
+            <h2>Nuestros productos</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://placecats.com/150/150" alt="Producto 1">
+                    <h3>Producto 1</h3>
+                    <p>$99999</p>
+                    <button>Agregar al carrito</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://placecats.com/millie_neo/150/150" alt="Producto 2">
+                    <h3>Producto 2</h3>
+                    <p>$100000</p>
+                    <button>Agregar al carrito</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://placecats.com/millie/150/150" alt="Producto 3">
+                    <h3>Producto 3</h3>
+                    <p>$100001</p>
+                    <button>Agregar al carrito</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://placecats.com/150/150" alt="Producto 4">
+                    <h3>Producto 4</h3>
+                    <p>$99999</p>
+                    <button>Agregar al carrito</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://placecats.com/millie_neo/150/150" alt="Producto 5">
+                    <h3>Producto 5</h3>
+                    <p>$100000</p>
+                    <button>Agregar al carrito</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://placecats.com/millie/150/150" alt="Producto 6">
+                    <h3>Producto 6</h3>
+                    <p>$100001</p>
+                    <button>Agregar al carrito</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reseñas -->
+        <section id="reseñas">
+            <h2>Lo que dicen nuestros clientes</h2>
+            <div class="review-grid">
+                <div class="review-card">
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, iusto nulla. Sequi fugiat libero
+                        laborum!
+                    </p>
+                    <span>- Juan Pérez</span>
+                </div>
+                <div class="review-card">
+                    <p>⭐⭐⭐⭐</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, deserunt.</p>
+                    <span>- Ana Gómez</span>
+                </div>
+                <div class="review-card">
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <span>- Carlos Sánchez</span>
+                </div>
+                <div class="review-card">
+                    <p>⭐⭐⭐</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                    <span>- Laura Martínez</span>
+                </div>
+                <div class="review-card">
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, aperiam.</p>
+                    <span>- Pedro Rodríguez</span>
+                </div>
+                <div class="review-card">
+                    <p>⭐⭐⭐⭐</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore blanditiis vitae perspiciatis
+                        porro.</p>
+                    <span>- María Fernández</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formulario de Contacto -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="https://formspree.io/f/mbljydpg" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" maxlength="20" placeholder="Nombre" required>
+                <label for="mail">Dirección de correo electronico:</label>
+                <input type="email" name="mail" id="mail" placeholder="usuario@mail.com" required>
+                <label for="comentario">Mensaje:</label>
+                <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Escribe tu mensaje aqui..."
+                    required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Tienda Lorem. </p>
+    </footer>
+</body>
+
+</html>
